@@ -23,11 +23,13 @@ body{
  .texto{
     width: 800px;
     margin: auto;
+    color: bisque;
 }
 
 .titulo{
     margin: 1em;
     text-transform: uppercase;
+    color: aliceblue;
 } 
 
 header{
@@ -132,15 +134,11 @@ header p{
     color: aliceblue;
     text-decoration: none;
   }
-  
-  .fundo{
-    background-image: url(./img/1000399873.jpg);
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background: 
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(151, 134, 134, 0.5)),
-    url('./img/1000399873.jpg');
-  }
 
+  .img{
   
+  width: 120px;
+  height: auto;
+  display: block;
+
+  }
